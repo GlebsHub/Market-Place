@@ -8,3 +8,10 @@ body{
 header{
     background-color: rgb(198, 13, 13);
 }
+footer{
+    border-color: blue;
+}
+
+section{
+    background-color: yellow;
+}
