@@ -15,6 +15,16 @@ sliderToScroll: 4,
 });
 
 
+$('.menu__btn').on('clock', function(){
+    $('.menu__list').slideToggle();
+});
+
+
+$('.header__btn-menu').on('clock', function(){
+    $('.header__box').toggleClass('active');
+});
+
+
     
 var mixed = mixitup('.products__inner-box');
     
